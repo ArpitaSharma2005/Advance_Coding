@@ -3,7 +3,6 @@ public class Problem1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
-        
         int n = s.length();
         String t = s + s; 
         
@@ -19,7 +18,7 @@ public class Problem1 {
                 currSum -= (ch - 'a' + 1);
                 i++;
             }
-         
+  
             char ch = t.charAt(j);
             set.add(ch);
             currSum += (ch - 'a' + 1);
